@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+            android:icon="@mipmap/ic_launcher"
+            android:label="SGameHook"
+            android:roundIcon="@mipmap/ic_launcher_round"
+    >
+        <meta-data
+                android:name="xposedmodule"
+                android:value="true" />
+        <meta-data
+                android:name="xposeddescription"
+                android:value="王者自定义名片/海报模块 请前往模块发布页 https://github.com/huajiqaq/Xposed-SGameHook 查看更多详情" />
+        <meta-data
+                android:name="xposedminversion"
+                android:value="82" />
+        <meta-data
+                android:name="xposedscope"
+                android:resource="@array/xpdemo_scope"/>
+    </application>
+
+</manifest>

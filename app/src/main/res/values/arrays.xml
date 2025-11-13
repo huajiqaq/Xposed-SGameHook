@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="xpdemo_scope">
+        <item>com.tencent.tmgp.sgame</item>
+        <item>com.tencent.tmgp.sgamece</item>
+    </string-array>
+</resources>
