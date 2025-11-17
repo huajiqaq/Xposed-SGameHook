@@ -11,6 +11,7 @@ add_subdirectory(dobby)
 add_subdirectory(byopen)
 add_library(${CMAKE_PROJECT_NAME} SHARED
     sgame_hook.cpp
+    atexit.cpp
 )
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     ${CMAKE_SOURCE_DIR}/dobby/include

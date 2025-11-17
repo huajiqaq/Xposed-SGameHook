@@ -19,5 +19,9 @@
 2. 安装本模块 勾选游戏
 3. 启动游戏即可生效
 
+## 使用的开源项目
+本项目使用了以下开源项目/库 (开源许可详见项目 licenses 目录)：
+- [local_cxa_atexit_finalize_impl](https://github.com/5ec1cff/local_cxa_atexit_finalize_impl/)
+
 ## 其他说明
 1. 本模块不支持模拟器 模拟器请使用 Zygisk 模块 [Zygisk-SGameHook](https://github.com/huajiqaq/Zygisk-SGameHook/)

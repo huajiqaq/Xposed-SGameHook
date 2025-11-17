@@ -20,4 +20,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Xposed-SGameHook"
-include(":app")
+include ':app'
